@@ -6,3 +6,7 @@ app = Flask(__name__)
 @app.route("/")
 def index():
     return "hello world"
+
+
+app.debug = True
+app.run()
